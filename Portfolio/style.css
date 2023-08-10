@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-top: 15px;
+    background-color: transparent;
+    position: sticky;
+}
+
+.navbar span {
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: large;
+    text-transform: uppercase;
+
+}
+
+.navbar ul {
+
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    float: right;
+    margin-right: 70px;
+
+
+}
+
+.navbar ul li a {
+    color: black;
+    font-size: large;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid black;
+    animation-name: borderani;
+    animation-duration: .5s;
+    transition: all ease;
+}
+
+@keyframes borderani{
+    from{
+        border-bottom: 1px solid transparent;
+    }
+
+    to{
+        border-bottom: 1px solid black;
+    }
+
+}
+
+.section1 {
+    height: 100vh;
+}
+
+.section1 img {
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+
+}
+
+.container {
+    display: block;
+    float: left;
+}
+
+.container p {
+    font-size: 50px;
+    margin-top: 80%;
+    margin-left: 70%;
+}
+
+.designer {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 25px;
+    width: 100%;
+    border-right: 2px solid;
+    animation:
+        typing 2s steps(15),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+#darshan {
+    width: 20%;
+    margin-top: 40px;
+    margin-left: 10%;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+.section2 {
+    height: 100vh;
+    /* background-color: skyblue; */
+    background: linear-gradient(white, lightgray);
+}
+
+.section2 .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px 10px;
+    margin-left: 98px;
+    padding: 40px;
+    text-align: center;
+    gap: 40px;
+}
+
+.row button {
+    height: 200%;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+
+.row button:hover {
+    background-color: white
+}
+
+.certificate {
+    height: 500px;
+}
+
+.certificate img {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 30px;
+    box-shadow: -10px 10px 15px black;
+}
+
+.section3 {
+    height: 100vh;
+    background: linear-gradient(lightgray, white);
+    overflow: hidden;
+}
+
+
+.section3 h1 {
+    position: relative;
+    top: 44%;
+    left: 30%;
+}
+
+.section3 p {
+    position: relative;
+    top: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 55%;
+    text-indent: 15px;
+    text-align: center;
+    font-size: large;
+    left: 6%;
+}
+
+.box {
+    height: 60%;
+    width: 25%;
+    background: linear-gradient(to top, lightgray,gray);
+    border-radius: 30px;
+    float: right;
+    margin-top: 8%;
+    margin-right: 10%;
+}
+
+
+.box #form{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 17px;
+}
+
+input{
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+
+.gfg{
+    border-spacing: 0 19px;
+}
+
+.sub{
+    height: 32px;
+    width: 350%;
+    position: relative;
+    left: 13%;
+    top: 15px;
+}
+
+#form label{
+    color: white;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+
